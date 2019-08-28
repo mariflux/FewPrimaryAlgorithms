@@ -31,6 +31,13 @@ public class Person {
             this.height = number;
         }
     }
+    void displayNameAndSurname(){
+        System.out.println("This person's name: "+first_name+" and surname: "+last_name);
+    }
+
+    void displayMyHight(){
+        System.out.println("My height: "+height);
+    }
 
     public String getFirst_name() {
         return first_name;
@@ -62,5 +69,15 @@ public class Person {
 
     public void setHeight(double height) {
         this.height = height;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "first_name='" + first_name + '\'' +
+                ", last_name='" + last_name + '\'' +
+                ", weight=" + weight +
+                ", height=" + height +
+                '}';
     }
 }
