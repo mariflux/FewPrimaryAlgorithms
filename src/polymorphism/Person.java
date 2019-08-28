@@ -1,4 +1,4 @@
-package polymorphizm;
+package polymorphism;
 
 public class Person {
     private String first_name;

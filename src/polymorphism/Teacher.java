@@ -1,4 +1,4 @@
-package polymorphizm;
+package polymorphism;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package polymorphizm;
+package polymorphism;
 
 public class Student extends Person{
     private String grade;
